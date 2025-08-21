@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Sahara",
+    "token": "SAH",
+    "status": "Active",
+    "link": "https://sahara.build"
+  },
+  {
+    "name": "Bless",
+    "token": "BLESS",
+    "status": "Closed",
+    "link": "https://bless.network"
+  },
+  {
+    "name": "Somnia",
+    "token": "SOM",
+    "status": "Upcoming",
+    "link": "https://somnia.network"
+  }
+]
