@@ -14,3 +14,5 @@ def display_airdrops(airdrops):
 if __name__ == "__main__":
     airdrops = load_airdrops()
     display_airdrops(airdrops)
+
+
