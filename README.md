@@ -18,3 +18,5 @@ A simple tool for explorers, builders, and degens who don’t want to miss oppor
 git clone https://github.com/MypassionPython/crypto-airdrop-tracker
 cd crypto-airdrop-tracker
 python tracker.py
+
+
