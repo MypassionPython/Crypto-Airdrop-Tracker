@@ -31,11 +31,11 @@ jobs:
       - name: Commit if changed (diff-guard) as YOU
         env:
           # ЗАМІНИ на свій логін/ID no-reply цього акаунта:
-          GIT_AUTHOR_NAME: "MypassionPython"
-          GIT_AUTHOR_EMAIL: "125153511+MypassionPython@users.noreply.github.com"
-          GIT_COMMITTER_NAME: "MypassionPython"
-          GIT_COMMITTER_EMAIL: "125153511+MypassionPython@users.noreply.github.com"
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GIT_AUTHOR_NAME: ""
+          GIT_AUTHOR_EMAIL: "m"
+          GIT_COMMITTER_NAME: ""
+          GIT_COMMITTER_EMAIL: ""
+          GH_TOKEN: ${{ secrets.TOKEN }}
         run: |
           echo "[workflow] git status BEFORE:"; git status --porcelain || true
           git add -A
